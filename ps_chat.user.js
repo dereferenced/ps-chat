@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Puzzle Strike Chat Enhancement
 // @namespace    pschat 
+// @include      http://fantasystrike.com/game/index.php*
 // @include      http://www.fantasystrike.com/game/index.php*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @author       dereferenced
 // @description  Changes the look and feel of the chat log in Puzzle Strike on FantasyStrike.com
-// @version      1.0.0
+// @version      1.0.1
 // ==/UserScript==
 
 this.$ = this.jQuery = jQuery.noConflict(true);
